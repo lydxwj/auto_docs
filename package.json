@@ -1,0 +1,24 @@
+{
+  "name": "auto_docs",
+  "version": "1.0.0",
+  "description": "自动化生成文档",
+  "main": "dist/index.html",
+  "scripts": {
+    "start": "node ./build/compiler -watch -open",
+    "build": "node ./build/compiler"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lydxwj/auto_docs.git"
+  },
+  "author": "lyd",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "chalk": "^4.1.0",
+    "fs-extra": "^9.1.0",
+    "marked": "^2.0.1"
+  },
+  "dependencies": {
+  }
+}
